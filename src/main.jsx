@@ -6,6 +6,8 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <div className='font-urbanist max-w-7xl mx-auto'>
+      <RouterProvider router={router} />
+    </div>
   </StrictMode>,
 )
